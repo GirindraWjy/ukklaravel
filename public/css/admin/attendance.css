@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+}
+
+.btn.btn-success {
+    color: black;
+    background-color: white;
+    border-style: none;
+}
+
+.btn.btn-success:hover {
+    color: white;
+    background-color: #0d6efd;
+    border-style: none;
+}
+
+.d-flex.coll {
+    gap: 10px;
+}
+
+@media (max-width: 500px) {
+    .d-flex.coll {
+        display: flex;
+        flex-direction: column;
+    }
+}

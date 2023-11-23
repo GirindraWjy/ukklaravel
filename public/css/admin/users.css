@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+}
+
+.cardflex {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.iconchart {
+    padding: 20px;
+    background-color: #337ccf;
+    color: #fff;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .cardflex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/*6E56CF*/

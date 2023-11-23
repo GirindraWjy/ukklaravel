@@ -1,0 +1,16 @@
+.d-flex.coll {
+    gap: 10px;
+}
+
+@media (max-width: 500px) {
+    .d-flex.coll {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+.btn.btn-outline-secondary.mb-4.mt-2 {
+    width: 90%;
+}
+
+.btn.btn-outline-secondary.mb-4.mt-2 {
+    color: white;
+    background-color: #6f61c0;
+    border-color: #6f61c0;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 0px 10px 20px -10px #a18aff;
+}
+
+.btn.btn-outline-secondary.mb-4.mt-2:hover {
+    background-color: #6f61c0df;
+    border-color: #6f61c0df;
+    box-shadow: 0px 5px 25px -5px #8f75f6;
+}
+
+.cardflex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 0px 10px 20px -10px #a18aff;
+}
+
+@media (max-width: 768px) {
+    .cardflex {
+        flex-direction: column;
+    }
+
+    .card-subtitle {
+        font-size: 16px;
+    }
+
+    .card-subtitle2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+}

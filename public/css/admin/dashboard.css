@@ -1,0 +1,114 @@
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+}
+
+.btn.btn-outline-secondary.mb-4.mt-2 {
+    color: black;
+    border-color: #6f61c0;
+}
+
+.btn.btn-outline-secondary.mb-4.mt-2:hover {
+    color: white;
+    background-color: #6f61c0;
+    border-color: #6f61c0;
+}
+
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.cardflex .card {
+    width: 100%;
+    border-radius: 6px;
+    border-style: none;
+    border-style: none;
+}
+
+.card-body .text-center .card-subtitle {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1335px) {
+    .cardflex {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .cardflex .card {
+        width: 100%;
+    }
+
+    .card-body .text-center .card-subtitle {
+        font-size: 19px;
+    }
+
+    .card-body .text-center .m-0 {
+        font-size: 21px;
+    }
+
+    .breadcrumb {
+        font-size: 19px;
+    }
+
+    .row .usn {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 970px) {
+    .cardflex {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .cardflex .card {
+        width: 100%;
+    }
+
+    .card-body .text-center .card-subtitle {
+        font-size: 19px;
+    }
+
+    .card-body .text-center .m-0 {
+        font-size: 21px;
+    }
+
+    .breadcrumb {
+        font-size: 19px;
+    }
+
+    .row .usn {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 588px) {
+    .cardflex {
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .card-body .text-center .card-subtitle {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .card-body .text-center .m-0 {
+        font-size: 17px;
+    }
+
+    .breadcrumb {
+        font-size: 16px;
+    }
+
+    .row .usn {
+        font-size: 19px;
+    }
+}
